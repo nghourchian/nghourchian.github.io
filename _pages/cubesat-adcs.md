@@ -16,18 +16,17 @@ author_profile: false
 
 .cubesat-news-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 360px));
-  justify-content: center;
-  gap: 0.9rem;
-  margin: 0.5rem 0 1.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0.5rem 0 1.8rem;
 }
 
 .cubesat-news-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 92px;
-  padding: 0.85rem 1rem;
+
+  padding: 0.9rem 1rem;
 
   border: 1px solid #d0d7de !important;
   border-radius: 8px;
@@ -68,85 +67,17 @@ author_profile: false
 
 .cubesat-news-meta {
   margin-top: 0.25rem;
+
   color: #6c757d;
   font-size: 0.72rem;
   font-weight: 500;
   line-height: 1.3;
 }
 
-/* =========================
-   Divider
-   ========================= */
-
-.cubesat-section-divider {
-  width: 100%;
-  height: 1px;
-  margin: 1.35rem 0 1.35rem;
-  background: #d9dee3;
-}
-
-/* =========================
-   Small project cards
-   3 + 3 + 2 layout
-   ========================= */
-
-.cubesat-project-grid {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 0.75rem;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto 1.8rem;
-}
-
-.cubesat-project-card {
-  grid-column: span 2;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  min-height: 76px;
-  padding: 0.7rem 0.8rem;
-
-  border: 1px solid #d0d7de;
-  border-radius: 8px;
-
-  background: #ffffff;
-
-  transition:
-    border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-/* Center the two cards in the final row. */
-.cubesat-project-card:nth-last-child(2) {
-  grid-column: 2 / span 2;
-}
-
-.cubesat-project-card:last-child {
-  grid-column: 4 / span 2;
-}
-
-.cubesat-project-card:hover {
-  border-color: #2486c7;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-
-.cubesat-project-title {
-  color: #2486c7;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.3;
-}
-
-.cubesat-project-meta {
-  margin-top: 0.22rem;
-  color: #6c757d;
-  font-size: 0.68rem;
-  line-height: 1.3;
+@media (max-width: 650px) {
+  .cubesat-news-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* =========================
@@ -272,33 +203,7 @@ author_profile: false
   transform: scale(1.2);
 }
 
-/* =========================
-   Responsive layout
-   ========================= */
-
-@media (max-width: 800px) {
-  .cubesat-project-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .cubesat-project-card,
-  .cubesat-project-card:nth-last-child(2),
-  .cubesat-project-card:last-child {
-    grid-column: auto;
-  }
-}
-
-@media (max-width: 650px) {
-  .cubesat-news-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 600px) {
-  .cubesat-project-grid {
-    grid-template-columns: 1fr;
-  }
-
   .cubesat-carousel-arrow {
     width: 38px;
     height: 38px;
@@ -314,9 +219,7 @@ author_profile: false
   }
 }
 
-/* =========================
-   Model screenshots
-   ========================= */
+/* Keep model screenshots legible at the full content width. */
 
 .cubesat-model {
   margin: 1.5rem 0 2rem;
@@ -424,84 +327,6 @@ Our design progressed through the conceptual and detailed design stages, placing
 
 </div>
 
-<div class="cubesat-section-divider"></div>
-
-<div class="cubesat-project-grid">
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      Orbital Model
-    </span>
-    <span class="cubesat-project-meta">
-      Simulation / Dynamics
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      SIL Testing
-    </span>
-    <span class="cubesat-project-meta">
-      Validation / Control
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      PIL Testing
-    </span>
-    <span class="cubesat-project-meta">
-      Embedded implementation
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      Detumbling
-    </span>
-    <span class="cubesat-project-meta">
-      B-dot control
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      Nadir Pointing
-    </span>
-    <span class="cubesat-project-meta">
-      Quaternion PD control
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      Sensor Fusion
-    </span>
-    <span class="cubesat-project-meta">
-      Gyro / magnetometer / sun sensor
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      Magnetorquer Module
-    </span>
-    <span class="cubesat-project-meta">
-      Actuation hardware
-    </span>
-  </div>
-
-  <div class="cubesat-project-card">
-    <span class="cubesat-project-title">
-      Day/Night Logic
-    </span>
-    <span class="cubesat-project-meta">
-      Sensor switching
-    </span>
-  </div>
-
-</div>
-
 <div class="cubesat-carousel">
 
   <button
@@ -547,7 +372,6 @@ Our design progressed through the conceptual and detailed design stages, placing
   </button>
 
   <div class="cubesat-carousel-dots" aria-label="Photo navigation">
-
     <button
       class="cubesat-carousel-dot active"
       type="button"
@@ -568,7 +392,6 @@ Our design progressed through the conceptual and detailed design stages, placing
       data-slide="2"
       aria-label="Show photo 3">
     </button>
-
   </div>
 
 </div>
@@ -616,19 +439,15 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".cubesat-carousel").forEach(function (carousel) {
 
     const track = carousel.querySelector(".cubesat-carousel-track");
-
     const slides = Array.from(
       carousel.querySelectorAll(".cubesat-carousel-slide")
     );
-
     const dots = Array.from(
       carousel.querySelectorAll(".cubesat-carousel-dot")
     );
-
     const previousButton = carousel.querySelector(
       ".cubesat-carousel-prev"
     );
-
     const nextButton = carousel.querySelector(
       ".cubesat-carousel-next"
     );
@@ -642,7 +461,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function goToSlide(index) {
-
       if (index < 0) {
         index = slides.length - 1;
       }
@@ -678,11 +496,9 @@ document.addEventListener("DOMContentLoaded", function () {
     let scrollTimer;
 
     track.addEventListener("scroll", function () {
-
       clearTimeout(scrollTimer);
 
       scrollTimer = setTimeout(function () {
-
         const index = Math.round(
           track.scrollLeft / track.clientWidth
         );
@@ -693,14 +509,12 @@ document.addEventListener("DOMContentLoaded", function () {
         );
 
         updateDots(currentSlide);
-
       }, 60);
     });
 
     window.addEventListener("resize", function () {
       track.scrollLeft = track.clientWidth * currentSlide;
     });
-
   });
 });
 </script>
