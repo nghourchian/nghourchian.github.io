@@ -10,38 +10,74 @@ author_profile: false
   padding-top: 1.5rem;
 }
 
-.cubesat-news-link {
-  display: inline-block;
-  margin: 0.35rem 0 1.5rem;
-  padding: 0.45rem 0.8rem;
-  color: #2486c7 !important;
-  background: #ffffff;
+/* =========================
+   Announcement cards
+   ========================= */
+
+.cubesat-news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0.5rem 0 1.8rem;
+}
+
+.cubesat-news-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0.9rem 1rem;
+
   border: 1px solid #d0d7de !important;
-  border-bottom: 1px solid #d0d7de !important;
-  border-radius: 6px;
+  border-radius: 8px;
+
+  background: #ffffff;
+  color: inherit !important;
+
   box-shadow: none !important;
   background-image: none !important;
-  font-size: 0.84rem;
+  text-decoration: none !important;
+
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cubesat-news-card:hover,
+.cubesat-news-card:focus,
+.cubesat-news-card:active,
+.cubesat-news-card:visited {
+  text-decoration: none !important;
+  background-image: none !important;
+}
+
+.cubesat-news-card:hover {
+  border-color: #2486c7 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+}
+
+.cubesat-news-title {
+  color: #2486c7;
+  font-size: 0.88rem;
   font-weight: 700;
-  line-height: 1.4;
-  text-decoration: none !important;
+  line-height: 1.35;
 }
 
-.cubesat-news-link:hover,
-.cubesat-news-link:focus,
-.cubesat-news-link:active,
-.cubesat-news-link:visited {
-  color: #2486c7 !important;
-  border-bottom: 1px solid #d0d7de !important;
-  box-shadow: none !important;
-  background-image: none !important;
-  text-decoration: none !important;
+.cubesat-news-meta {
+  margin-top: 0.25rem;
+
+  color: #6c757d;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.3;
 }
 
-.cubesat-news-link:hover {
-  color: #176fa8 !important;
-  background: #f3f6f9;
-  border-color: #59aaf7 !important;
+@media (max-width: 650px) {
+  .cubesat-news-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* =========================
@@ -255,9 +291,41 @@ The spacecraft consisted of the main satellite, named Q, and a detachable module
 
 Our design progressed through the conceptual and detailed design stages, placing us among the top four of 52 teams nationwide and securing funding to develop an engineering prototype. Our team ultimately finished in third place.
 
-[Final phase announcement (Persian) ↗](https://www.citna.ir/news/337857/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%85%D8%B1%D8%AD%D9%84%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%B1%D9%82%D8%A7%D8%A8%D8%AA%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%B3%D8%A7%D8%AE%D8%AA-%D9%85%D8%A7%D9%87%D9%88%D8%A7%D8%B1%D9%87-%D9%85%DA%A9%D8%B9%D8%A8%DB%8C-qsat){: .cubesat-news-link }
+<div class="cubesat-news-grid">
 
-[Announcement of the end of the Detailed Design phase (Persian) ↗](https://snn.ir/fa/news/1191297/%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%DB%B6%DB%B0%DB%B0-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%AA%D9%88%D9%85%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%AA%DB%8C%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-qsat){: .cubesat-news-link }
+  <a
+    class="cubesat-news-card"
+    href="https://www.citna.ir/news/337857/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%85%D8%B1%D8%AD%D9%84%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%B1%D9%82%D8%A7%D8%A8%D8%AA%DB%8C-%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C-%D8%B3%D8%A7%D8%AE%D8%AA-%D9%85%D8%A7%D9%87%D9%88%D8%A7%D8%B1%D9%87-%D9%85%DA%A9%D8%B9%D8%A8%DB%8C-qsat"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <span class="cubesat-news-title">
+      Final phase announcement
+    </span>
+
+    <span class="cubesat-news-meta">
+      Persian · External source ↗
+    </span>
+
+  </a>
+
+  <a
+    class="cubesat-news-card"
+    href="https://snn.ir/fa/news/1191297/%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%DB%B6%DB%B0%DB%B0-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%AA%D9%88%D9%85%D8%A7%D9%86%DB%8C-%D8%A7%D8%B2-%D8%AA%DB%8C%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%B1%D9%88%DB%8C%D8%AF%D8%A7%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-qsat"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    <span class="cubesat-news-title">
+      Detailed Design phase announcement
+    </span>
+
+    <span class="cubesat-news-meta">
+      Persian · External source ↗
+    </span>
+
+  </a>
+
+</div>
 
 <div class="cubesat-carousel">
 
