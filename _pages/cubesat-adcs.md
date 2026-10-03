@@ -294,14 +294,6 @@ Our design progressed through the conceptual and detailed design stages, placing
         decoding="async">
     </div>
 
-    <div class="cubesat-carousel-slide">
-      <img
-        src="{{ '/images/cubesat-photo-4.jpg' | relative_url }}"
-        alt="Cubisa team during the national CubeSat competition"
-        loading="lazy"
-        decoding="async">
-    </div>
-
   </div>
 
   <button
@@ -331,13 +323,6 @@ Our design progressed through the conceptual and detailed design stages, placing
       type="button"
       data-slide="2"
       aria-label="Show photo 3">
-    </button>
-
-    <button
-      class="cubesat-carousel-dot"
-      type="button"
-      data-slide="3"
-      aria-label="Show photo 4">
     </button>
   </div>
 
