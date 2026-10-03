@@ -280,7 +280,7 @@ Our design progressed through the conceptual and detailed design stages, placing
 
     <div class="cubesat-carousel-slide">
       <img
-        src="{{ '/images/cubesat-photo-2.jpg' | relative_url }}"
+        src="{{ '/images/meeting.jpg' | relative_url }}"
         alt="Cubisa team during the CubeSat project"
         loading="lazy"
         decoding="async">
@@ -288,7 +288,7 @@ Our design progressed through the conceptual and detailed design stages, placing
 
     <div class="cubesat-carousel-slide">
       <img
-        src="{{ '/images/cubesat-photo-3.jpg' | relative_url }}"
+        src="{{ '/images/magnetorquer.jpg' | relative_url }}"
         alt="Cubisa engineering prototype"
         loading="lazy"
         decoding="async">
