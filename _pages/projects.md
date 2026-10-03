@@ -403,11 +403,11 @@ author_profile: false
   <div class="small-project-card">
 
     <h3 class="small-project-title">
-      Self-Balancing Robot
+      H-Bridge Circuit Design 
     </h3>
 
     <p class="small-project-type">
-      Control Systems · Embedded Systems
+      Temperature Control System
     </p>
 
   </div>
