@@ -21,6 +21,10 @@ author_profile: false
   margin-right: auto;
 }
 
+/* =========================
+   Main featured projects
+   ========================= */
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 620px));
@@ -38,7 +42,9 @@ author_profile: false
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .project-card:hover {
@@ -150,7 +156,98 @@ author_profile: false
   background-image: none !important;
 }
 
+/* =========================
+   Divider
+   ========================= */
+
+.projects-divider {
+  width: 100%;
+  max-width: 1450px;
+  height: 1px;
+  margin: 3rem auto 2.2rem;
+  background: #d9dee3;
+}
+
+/* =========================
+   Smaller projects
+   3 + 3 + 2 layout
+   ========================= */
+
+.small-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1.2rem;
+
+  width: 100%;
+  max-width: 1150px;
+
+  margin: 0 auto 3rem;
+}
+
+.small-project-card {
+  grid-column: span 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 135px;
+  padding: 1.15rem 1.2rem;
+
+  background: #ffffff;
+
+  border: 1px solid #e4e7ec;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.045);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.small-project-card:hover {
+  transform: translateY(-4px);
+  border-color: #c8cff9;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Center final two cards */
+.small-project-card:nth-last-child(2) {
+  grid-column: 2 / span 2;
+}
+
+.small-project-card:last-child {
+  grid-column: 4 / span 2;
+}
+
+.small-project-title {
+  margin: 0 0 0.45rem;
+
+  color: #24364a;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.small-project-type {
+  margin: 0;
+
+  color: #667085;
+
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* =========================
+   Responsive design
+   ========================= */
+
 @media (max-width: 900px) {
+
   .projects-grid {
     grid-template-columns: 1fr;
     max-width: 700px;
@@ -159,20 +256,53 @@ author_profile: false
   .project-image-wrapper {
     height: 210px;
   }
+
+  .small-projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 700px;
+  }
+
+  .small-project-card,
+  .small-project-card:nth-last-child(2),
+  .small-project-card:last-child {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .small-projects-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
 </style>
+
+
+<!-- =========================
+     FEATURED PROJECTS
+     ========================= -->
 
 <div class="projects-grid">
 
   <div class="project-card">
+
     <a href="/projects/cubesat-adcs/">
       <div class="project-image-wrapper">
-        <img src="/images/cubesat-team.jpg" alt="3U CubeSat ADCS team">
-        <div class="project-year-badge">Jan 2024 — Jul 2026</div>
+
+        <img
+          src="/images/cubesat-team.jpg"
+          alt="3U CubeSat ADCS team">
+
+        <div class="project-year-badge">
+          Jan 2024 — Jul 2026
+        </div>
+
       </div>
     </a>
 
     <div class="project-content">
+
       <h2 class="project-title">
         <a href="/projects/cubesat-adcs/">
           Attitude Determination and Control System
@@ -180,30 +310,49 @@ author_profile: false
       </h2>
 
       <div class="project-meta">
-        <span>🛰 National CubeSat Design Competition (Qsat)</span>
+        <span>
+          🛰 National CubeSat Design Competition (Qsat)
+        </span>
       </div>
 
-      <a class="project-button" href="/projects/cubesat-adcs/">
+      <a
+        class="project-button"
+        href="/projects/cubesat-adcs/">
         Project Details
       </a>
+
     </div>
+
   </div>
 
+
   <div class="project-card">
+
     <a href="/projects/gps-denied-navigation/">
       <div class="project-image-wrapper">
-        <video autoplay muted loop playsinline preload="metadata">
+
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata">
+
           <source
             src="/videos/gps-denied-navigation.mp4"
-            type="video/mp4"
-          >
+            type="video/mp4">
+
         </video>
 
-        <div class="project-year-badge">Jun 2025 — Jan 2026</div>
+        <div class="project-year-badge">
+          Jun 2025 — Jan 2026
+        </div>
+
       </div>
     </a>
 
     <div class="project-content">
+
       <h2 class="project-title">
         <a href="/projects/gps-denied-navigation/">
           Vision-Based GPS-Denied Navigation for UAVs
@@ -211,20 +360,147 @@ author_profile: false
       </h2>
 
       <div class="project-meta">
+
         <span>
+
           <img
             src="/images/drone-icon.png"
             alt=""
-            class="drone-icon"
-          >
+            class="drone-icon">
+
           Bachelor’s Final Project
+
         </span>
+
       </div>
 
-      <a class="project-button" href="/projects/gps-denied-navigation/">
+      <a
+        class="project-button"
+        href="/projects/gps-denied-navigation/">
         Project Details
       </a>
+
     </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================
+     DIVIDER
+     ========================= -->
+
+<div class="projects-divider"></div>
+
+
+<!-- =========================
+     SMALLER PROJECTS
+     ========================= -->
+
+<div class="small-projects-grid">
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      Self-Balancing Robot
+    </h3>
+
+    <p class="small-project-type">
+      Control Systems · Embedded Systems
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      6-Axis Pick-and-Place Robot
+    </h3>
+
+    <p class="small-project-type">
+      Robotics · ROS 2
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      Vision-Guided Robotic Arm
+    </h3>
+
+    <p class="small-project-type">
+      Robotics · Computer Vision
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      H-Bridge DC Motor Driver
+    </h3>
+
+    <p class="small-project-type">
+      Electronics · Embedded Systems
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      Ball-and-Beam Control System
+    </h3>
+
+    <p class="small-project-type">
+      Control Systems · Mechatronics
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      Facial-Detection Door Lock
+    </h3>
+
+    <p class="small-project-type">
+      Computer Vision · Embedded Systems
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      Kibo Programming Challenge
+    </h3>
+
+    <p class="small-project-type">
+      Space Robotics · Astrobee
+    </p>
+
+  </div>
+
+
+  <div class="small-project-card">
+
+    <h3 class="small-project-title">
+      Bicycle Frame Stress Analysis
+    </h3>
+
+    <p class="small-project-type">
+      Finite Element Analysis
+    </p>
+
   </div>
 
 </div>
