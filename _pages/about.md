@@ -286,7 +286,7 @@ redirect_from:
     
 
     <div class="highlight-meta">
-       National CubeSat Design Competition (Qsat)
+      🛰 National CubeSat Design Competition (Qsat)
     </div>
 
     <a class="highlight-button" href="/projects/cubesat-adcs/">Project Details</a>
@@ -305,7 +305,7 @@ redirect_from:
 
     <div class="highlight-meta">
   <img src="/images/drone-icon.png" alt="" class="drone-icon">
-  Bachelor's Final Project
+  Bachelor’s Final Project
 </div>
 
     <div class="highlight-actions">
