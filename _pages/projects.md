@@ -290,7 +290,7 @@ author_profile: false
           alt="3U CubeSat ADCS team">
 
         <div class="project-year-badge">
-          Jan 2024 â€” Jul 2026
+          Jan 2024 — Jul 2026
         </div>
       </div>
     </a>
@@ -304,7 +304,7 @@ author_profile: false
 
       <div class="project-meta">
         <span>
-          ðŸ›° National CubeSat Design Competition (Qsat)
+          🛰 National CubeSat Design Competition (Qsat)
         </span>
       </div>
 
@@ -331,7 +331,7 @@ author_profile: false
         </video>
 
         <div class="project-year-badge">
-          Jun 2025 â€” Jan 2026
+          Jun 2025 — Jan 2026
         </div>
       </div>
     </a>
@@ -349,7 +349,7 @@ author_profile: false
             src="/images/drone-icon.png"
             alt=""
             class="drone-icon">
-          Bachelorâ€™s Final Project
+          Bachelor’s Final Project
         </span>
       </div>
 
@@ -380,7 +380,7 @@ author_profile: false
       H-Bridge DC Motor Driver Design
     </h3>
     <p class="small-project-type">
-      Electronics Â· Embedded Systems
+      Electronics · Embedded Systems
     </p>
   </div>
 
@@ -389,7 +389,7 @@ author_profile: false
       Facial Detection Door Lock
     </h3>
     <p class="small-project-type">
-      Computer Vision Â· Embedded Systems
+      Computer Vision · Embedded Systems
     </p>
   </div>
 
@@ -398,7 +398,7 @@ author_profile: false
       Reduction Gearbox CAD Design
     </h3>
     <p class="small-project-type">
-      Mechanical Design Â· CAD
+      Mechanical Design · CAD
     </p>
   </div>
 
@@ -407,7 +407,7 @@ author_profile: false
       Temperature Control system Design
     </h3>
     <p class="small-project-type">
-      Control Systems Â· Mechatronics
+      Control Systems · Mechatronics
     </p>
   </div>
 
@@ -416,7 +416,7 @@ author_profile: false
       Peaucellier Mechanism Design
     </h3>
     <p class="small-project-type">
-      Mechanism Design Â· Kinematics
+      Mechanism Design · Kinematics
     </p>
   </div>
 
@@ -425,7 +425,7 @@ author_profile: false
       Target Tracking and Capture in ROS2 Turtlesim
     </h3>
     <p class="small-project-type">
-      Robotics Â· ROS 2 Â· Simulation
+      Robotics · ROS 2 · Simulation
     </p>
   </div>
 
