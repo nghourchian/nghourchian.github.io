@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Vision-Based GPS-Denied Navigation for UAVs"
+title: "Vision-Based GPS-Denied Navigation for Emergency Response UAVs"
 permalink: /projects/gps-denied-navigation/
 author_profile: false
 ---
@@ -129,7 +129,7 @@ author_profile: false
 </style>
 
 This project explored whether a UAV could estimate its position using only imagery and a georeferenced satellite basemap when GPS measurements were unavailable.
-The system was developed as my bachelor’s final project. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
+The system was developed as my bachelor&#8217;s final project. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
 
 <img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="display:block; width:70%; max-width:950px; border-radius:10px; margin:1.5rem auto;">
 
@@ -185,7 +185,7 @@ Unlike absolute localization, it did not search the satellite basemap. Instead, 
 ## Feature Detection and Matching
 
 SIFT was used to detect keypoints and calculate descriptors in consecutive frames.
-The descriptors were matched using a FLANN-based matcher, and Lowe’s ratio test was applied to remove ambiguous matches.
+The descriptors were matched using a FLANN-based matcher, and Lowe&#8217;s ratio test was applied to remove ambiguous matches.
 If a sufficient number of valid feature correspondences remained, a partial affine transformation was estimated between the two frames.
 
 From this transformation, the system extracted:
@@ -205,7 +205,7 @@ The conversion used:
 - the image width and height.
 
 These values were used to approximate the ground-sampling distance of each image. Pixel motion could then be converted into metres.
-The displacement was rotated into a north–east reference frame using the accumulated yaw estimate. Successive motion estimates were integrated to produce a continuous local trajectory.
+The displacement was rotated into a north&#8211;east reference frame using the accumulated yaw estimate. Successive motion estimates were integrated to produce a continuous local trajectory.
 This method was fast enough to process image sequences at a nominal rate of 10 Hz, but because each estimate depended on the previous one, errors accumulated over time.
 
 <img src="/images/SIFT_error.png" alt="Vision-based GPS-denied navigation architecture"  style="display:block; width:70%; max-width:950px; border-radius:10px; margin:1.5rem auto;">
