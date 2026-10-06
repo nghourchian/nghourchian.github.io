@@ -286,7 +286,7 @@ redirect_from:
     
 
     <div class="highlight-meta">
-      🛰 National CubeSat Design Competition (Qsat)
+      ðŸ›° National CubeSat Design Competition (Qsat)
     </div>
 
     <a class="highlight-button" href="/projects/cubesat-adcs/">Project Details</a>
@@ -299,13 +299,13 @@ redirect_from:
   </video>
 
   <div class="highlight-content">
-    <h3>Vision-Based GPS-Denied Navigation for UAVs</h3>
+    <h3>Vision-Based GPS-Denied Navigation for Emergency Response UAVs</h3>
 
 
 
     <div class="highlight-meta">
   <img src="/images/drone-icon.png" alt="" class="drone-icon">
-  Bachelor’s Final Project
+  Bachelorâ€™s Final Project
 </div>
 
     <div class="highlight-actions">
@@ -337,6 +337,9 @@ redirect_from:
 
   <div class="highlight-meta">
     Flight Control &amp; Simulation Engineer
+  </div>
+  <div class="highlight-meta">
+    Attitude Determination and Control Engineer
   </div>
 </div>
 </div>
