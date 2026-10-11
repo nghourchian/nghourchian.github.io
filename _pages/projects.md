@@ -382,11 +382,11 @@ author_profile: false
 
     <div class="hbridge-collage">
       <img class="hbridge-proteus"
-           src="https://raw.githubusercontent.com/nghourchian/h-bridge-dc-motor-driver/main/H-Bridge-Schematic.png"
+           src="https://raw.githubusercontent.com/nghourchian/h-bridge-dc-motor-driver/main/H-Bridge-DC-Motor-Driver.bmp"
            alt="Proteus H-bridge circuit schematic"
            loading="lazy">
       <img class="hbridge-hardware"
-           src="https://raw.githubusercontent.com/nghourchian/h-bridge-dc-motor-driver/main/H-Bridge-Breadboard.jpg"
+           src="https://raw.githubusercontent.com/nghourchian/h-bridge-dc-motor-driver/main/H-Bridge%20Breadboard.jpg"
            alt="H-bridge breadboard circuit photograph"
            loading="lazy">
     </div>
