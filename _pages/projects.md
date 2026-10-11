@@ -384,16 +384,19 @@ author_profile: false
     </p>
   </div>
 
-  <div class="small-project-card">
-    <h3 class="small-project-title">
-      Facial Detection Door Lock
-    </h3>
-    <p class="small-project-type">
-      Computer Vision · Embedded Systems
-    </p>
-  </div>
+<a class="small-project-card"
+   href="https://github.com/nghourchian/reduction-gearbox-cad"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="flex-direction:row; align-items:center; justify-content:flex-start; gap:0.85rem; padding:0.75rem; text-decoration:none;">
 
-  <div class="small-project-card">
+  <img
+    src="https://raw.githubusercontent.com/nghourchian/reduction-gearbox-cad/main/Assembly.JPG"
+    alt="Reduction Gearbox CAD assembly"
+    loading="lazy"
+    style="width:42%; height:110px; object-fit:contain; border-radius:8px; background:#f7f8fb;">
+
+  <div style="flex:1; min-width:0;">
     <h3 class="small-project-title">
       Reduction Gearbox CAD Design
     </h3>
@@ -401,6 +404,7 @@ author_profile: false
       Mechanical Design · CAD
     </p>
   </div>
+
 
   <div class="small-project-card">
     <h3 class="small-project-title">
