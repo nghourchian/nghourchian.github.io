@@ -243,7 +243,8 @@ author_profile: false
   min-width: 0;
 }
 
-.gearbox-image {
+.gearbox-image,
+.face-lock-image {
   display: block;
   flex: 0 0 42%;
   width: 42%;
@@ -306,6 +307,7 @@ author_profile: false
 
   .project-content { padding: 1rem; }
   .project-title { font-size: 1.15rem; }
+
   .project-year-badge {
     padding: 0.5rem 0.65rem;
     font-size: 0.72rem;
@@ -397,10 +399,22 @@ author_profile: false
     </div>
   </a>
 
-  <div class="small-project-card">
-    <h3 class="small-project-title">Facial Detection Door Lock</h3>
-    <p class="small-project-type">Computer Vision · Embedded Systems</p>
-  </div>
+  <a class="small-project-card small-project-card--linked"
+     href="https://github.com/nghourchian/face-recognition-door-lock"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View Facial Recognition Door Lock on GitHub">
+
+    <img class="face-lock-image"
+         src="/images/face-lock.png"
+         alt="Face recognition application with anti-spoofing scores and lock status"
+         loading="lazy">
+
+    <div class="small-project-details">
+      <h3 class="small-project-title">Facial Recognition Door Lock</h3>
+      <p class="small-project-type">Computer Vision · Python · OpenCV</p>
+    </div>
+  </a>
 
   <a class="small-project-card small-project-card--linked"
      href="https://github.com/nghourchian/reduction-gearbox-cad"
