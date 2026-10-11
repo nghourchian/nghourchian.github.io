@@ -404,6 +404,7 @@ author_profile: false
       Mechanical Design · CAD
     </p>
   </div>
+  </a>
 
 
   <div class="small-project-card">
