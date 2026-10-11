@@ -411,7 +411,7 @@ author_profile: false
          loading="lazy">
 
     <div class="small-project-details">
-      <h3 class="small-project-title">Facial Recognition Door Lock</h3>
+      <h3 class="small-project-title">Facial Detection Door Lock</h3>
       <p class="small-project-type">Computer Vision · Python · OpenCV</p>
     </div>
   </a>
