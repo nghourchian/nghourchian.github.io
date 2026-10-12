@@ -414,7 +414,7 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">H-Bridge DC Motor Driver Design</h3>
-      <p class="small-project-type">Electronics</p>
+     
     </div>
   </a>
 
