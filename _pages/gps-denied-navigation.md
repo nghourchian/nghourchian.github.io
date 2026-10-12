@@ -131,6 +131,18 @@ author_profile: false
 This project explored whether a UAV could estimate its position using only imagery and a georeferenced satellite basemap when GPS measurements were unavailable.
 The system was developed as my bachelor&#8217;s final project. I designed and implemented the full localization pipeline, integrated its components, evaluated the resulting trajectory, and attempted to use the estimated position as a replacement for GPS inside a closed-loop flight simulation.
 
+<p>
+  <a href="https://github.com/nghourchian/vision-based-navigation-emergency-response-uavs"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="display:inline-block; padding:0.65rem 1rem;
+            background:#24292f; color:#ffffff;
+            border-radius:6px; font-weight:700;
+            text-decoration:none; border-bottom:none;">
+    View Source Code on GitHub
+  </a>
+</p>
+
 <img src="/images/visual-positioning-architecture.png" alt="Vision-based GPS-denied navigation architecture" style="display:block; width:70%; max-width:950px; border-radius:10px; margin:1.5rem auto;">
 
 The complete navigation scenario was created in a simulated environment rather than using a physical UAV.
