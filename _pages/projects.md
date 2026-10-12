@@ -414,7 +414,7 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">H-Bridge DC Motor Driver Design</h3>
-      <p class="small-project-type">Electronics · Embedded Systems</p>
+      <p class="small-project-type">Electronics</p>
     </div>
   </a>
 
@@ -431,7 +431,7 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Facial Recognition Door Lock</h3>
-      <p class="small-project-type">Computer Vision · Python · OpenCV</p>
+      <p class="small-project-type">Computer Vision</p>
     </div>
   </a>
 
@@ -448,7 +448,7 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Reduction Gearbox CAD Design</h3>
-      <p class="small-project-type">Mechanical Design · CAD</p>
+      <p class="small-project-type">Mechanical Design</p>
     </div>
   </a>
 
@@ -465,7 +465,7 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Temperature Control System Design</h3>
-      <p class="small-project-type">Control Systems · Mechatronics</p>
+      <p class="small-project-type">Control Systems</p>
     </div>
   </a>
 
@@ -484,7 +484,7 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Target Tracking and Capture in ROS2 Turtlesim</h3>
-      <p class="small-project-type">Robotics · ROS 2 · Simulation</p>
+      <p class="small-project-type">Robotics</p>
     </div>
   </a>
 
