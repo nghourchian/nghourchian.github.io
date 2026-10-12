@@ -309,8 +309,18 @@ redirect_from:
 </div>
 
     <div class="highlight-actions">
-      <a class="highlight-button" href="/projects/gps-denied-navigation/">Project Details</a>
-    </div>
+  <a class="highlight-button"
+     href="/projects/gps-denied-navigation/">
+    Project Details
+  </a>
+
+  <a class="highlight-button highlight-button--source"
+     href="https://github.com/nghourchian/vision-based-navigation-emergency-response-uavs"
+     target="_blank"
+     rel="noopener noreferrer">
+    Source Code
+  </a>
+</div>
   </div>
 </div>
 
