@@ -1,4 +1,4 @@
----
+<img width="888" height="371" alt="image" src="https://github.com/user-attachments/assets/d5fa2d94-4284-4155-9849-8f555b9d8176" />---
 layout: archive
 title: "Projects"
 permalink: /projects/
@@ -419,21 +419,20 @@ author_profile: false
   </a>
 
   <a class="small-project-card small-project-card--linked"
-     href="https://github.com/nghourchian/face-recognition-door-"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="View Facial Recognition Door  on GitHub">
+   href="https://github.com/nghourchian/face-recognition-door-lock"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="View Facial Detection Door Lock on GitHub">
 
-    <img class="small-project-image"
-         src="/images/face-.png"
-         alt="Face recognition application with anti-spoofing scores and lock status"
-         loading="lazy">
+  <img class="small-project-image"
+       src="/images/face-lock.png"
+       alt="Facial detection door lock"
+       loading="lazy">
 
-    <div class="small-project-details">
-      <h3 class="small-project-title">Facial Detection Door Lock</h3>
-      
-    </div>
-  </a>
+  <div class="small-project-details">
+    <h3 class="small-project-title">Facial Detection Door Lock</h3>
+  </div>
+</a>
 
   <a class="small-project-card small-project-card--linked"
      href="https://github.com/nghourchian/reduction-gearbox-cad"
