@@ -450,8 +450,10 @@ author_profile: false
      rel="noopener noreferrer"
      aria-label="View Temperature Control System Design on GitHub">
 
-    <!-- Replace this placeholder with an img when ready. -->
-    <div class="small-project-image" aria-hidden="true"></div>
+    <img class="small-project-image"
+         src="/images/temp-control.jpg"
+         alt="Temperature control system project"
+         loading="lazy">
 
     <div class="small-project-details">
       <h3 class="small-project-title">Temperature Control System Design</h3>
@@ -480,8 +482,10 @@ author_profile: false
      rel="noopener noreferrer"
      aria-label="View Target Tracking and Capture in ROS2 Turtlesim on GitHub">
 
-    <!-- Replace this placeholder with an img when ready. -->
-    <div class="small-project-image" aria-hidden="true"></div>
+    <img class="small-project-image"
+         src="/images/turtlesim.jpg"
+         alt="Target tracking and capture in ROS2 Turtlesim"
+         loading="lazy">
 
     <div class="small-project-details">
       <h3 class="small-project-title">Target Tracking and Capture in ROS2 Turtlesim</h3>
