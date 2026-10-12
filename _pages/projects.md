@@ -1,4 +1,4 @@
-<img width="888" height="371" alt="image" src="https://github.com/user-attachments/assets/d5fa2d94-4284-4155-9849-8f555b9d8176" />---
+---
 layout: archive
 title: "Projects"
 permalink: /projects/
@@ -135,7 +135,7 @@ author_profile: false
 }
 
 .project-button {
-  display: b;
+  display: block;
   margin-top: auto;
   padding: 0.75rem 1rem;
   border-radius: 8px;
@@ -257,7 +257,7 @@ author_profile: false
 }
 
 .small-project-image {
-  display: b;
+  display: block;
   flex: 0 0 42%;
   width: 42%;
   height: 110px;
@@ -276,7 +276,7 @@ author_profile: false
 
 .hbridge-collage img {
   position: absolute;
-  display: b;
+  display: block;
   width: 70%;
   height: 78px;
   object-fit: contain;
@@ -414,25 +414,24 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">H-Bridge DC Motor Driver Design</h3>
-     
     </div>
   </a>
 
   <a class="small-project-card small-project-card--linked"
-   href="https://github.com/nghourchian/face-recognition-door-lock"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="View Facial Detection Door Lock on GitHub">
+     href="https://github.com/nghourchian/face-recognition-door-lock"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View Facial Detection Door Lock on GitHub">
 
-  <img class="small-project-image"
-       src="/images/face-lock.png"
-       alt="Facial detection door lock"
-       loading="lazy">
+    <img class="small-project-image"
+         src="/images/face-lock.png"
+         alt="Facial detection door lock"
+         loading="lazy">
 
-  <div class="small-project-details">
-    <h3 class="small-project-title">Facial Detection Door Lock</h3>
-  </div>
-</a>
+    <div class="small-project-details">
+      <h3 class="small-project-title">Facial Detection Door Lock</h3>
+    </div>
+  </a>
 
   <a class="small-project-card small-project-card--linked"
      href="https://github.com/nghourchian/reduction-gearbox-cad"
@@ -447,7 +446,6 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Reduction Gearbox CAD Design</h3>
-     
     </div>
   </a>
 
@@ -464,11 +462,8 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Temperature Control System Design</h3>
-    
     </div>
   </a>
-
-
 
   <a class="small-project-card small-project-card--linked"
      href="https://github.com/nghourchian/target-tracking-and-capture"
@@ -483,7 +478,6 @@ author_profile: false
 
     <div class="small-project-details">
       <h3 class="small-project-title">Target Tracking and Capture in ROS2 Turtlesim</h3>
-     
     </div>
   </a>
 
