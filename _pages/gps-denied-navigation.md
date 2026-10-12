@@ -139,7 +139,7 @@ The system was developed as my bachelor&#8217;s final project. I designed and im
             background:#24292f; color:#ffffff;
             border-radius:6px; font-weight:700;
             text-decoration:none; border-bottom:none;">
-    View Source Code on GitHub
+    View Source Code 
   </a>
 </p>
 
