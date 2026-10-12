@@ -50,7 +50,9 @@ author_profile: false
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.13);
 }
 
-.project-card > a { display: block; }
+.project-card > a {
+  display: block;
+}
 
 .project-image-wrapper {
   position: relative;
@@ -100,7 +102,9 @@ author_profile: false
   text-decoration: none;
 }
 
-.project-title a:hover { color: #4f68e8; }
+.project-title a:hover {
+  color: #4f68e8;
+}
 
 .project-meta {
   display: flex;
@@ -143,7 +147,9 @@ author_profile: false
   transition: background 0.2s ease;
 }
 
-.project-button:hover { background: #4f63dc; }
+.project-button:hover {
+  background: #4f63dc;
+}
 
 .project-button,
 .project-button:link,
@@ -243,8 +249,7 @@ author_profile: false
   min-width: 0;
 }
 
-.gearbox-image,
-.face-lock-image {
+.small-project-image {
   display: block;
   flex: 0 0 42%;
   width: 42%;
@@ -254,7 +259,7 @@ author_profile: false
   background: #f7f8fb;
 }
 
-/* H-bridge: staggered Proteus and hardware images */
+/* H-bridge image pair */
 .hbridge-collage {
   position: relative;
   flex: 0 0 44%;
@@ -305,8 +310,13 @@ author_profile: false
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .project-content { padding: 1rem; }
-  .project-title { font-size: 1.15rem; }
+  .project-content {
+    padding: 1rem;
+  }
+
+  .project-title {
+    font-size: 1.15rem;
+  }
 
   .project-year-badge {
     padding: 0.5rem 0.65rem;
@@ -318,7 +328,9 @@ author_profile: false
     padding: 1rem 1.1rem;
   }
 
-  .small-project-card--linked { padding: 0.75rem; }
+  .small-project-card--linked {
+    padding: 0.75rem;
+  }
 }
 </style>
 
@@ -370,7 +382,6 @@ author_profile: false
 
 </div>
 
-<!-- Divider -->
 <div class="projects-divider"></div>
 
 <!-- Smaller projects -->
@@ -405,13 +416,13 @@ author_profile: false
      rel="noopener noreferrer"
      aria-label="View Facial Recognition Door Lock on GitHub">
 
-    <img class="face-lock-image"
+    <img class="small-project-image"
          src="/images/face-lock.png"
          alt="Face recognition application with anti-spoofing scores and lock status"
          loading="lazy">
 
     <div class="small-project-details">
-      <h3 class="small-project-title">Facial Detection Door Lock</h3>
+      <h3 class="small-project-title">Facial Recognition Door Lock</h3>
       <p class="small-project-type">Computer Vision · Python · OpenCV</p>
     </div>
   </a>
@@ -422,7 +433,7 @@ author_profile: false
      rel="noopener noreferrer"
      aria-label="View Reduction Gearbox CAD Design on GitHub">
 
-    <img class="gearbox-image"
+    <img class="small-project-image"
          src="https://raw.githubusercontent.com/nghourchian/reduction-gearbox-cad/main/Assembly.JPG"
          alt="Reduction gearbox CAD assembly"
          loading="lazy">
@@ -433,19 +444,49 @@ author_profile: false
     </div>
   </a>
 
-  <div class="small-project-card">
-    <h3 class="small-project-title">Temperature Control system Design</h3>
-    <p class="small-project-type">Control Systems · Mechatronics</p>
-  </div>
+  <a class="small-project-card small-project-card--linked"
+     href="https://github.com/nghourchian/temperature-control-system"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View Temperature Control System Design on GitHub">
 
-  <div class="small-project-card">
-    <h3 class="small-project-title">Peaucellier Mechanism Design</h3>
-    <p class="small-project-type">Mechanism Design · Kinematics</p>
-  </div>
+    <!-- Replace this placeholder with an img when ready. -->
+    <div class="small-project-image" aria-hidden="true"></div>
 
-  <div class="small-project-card">
-    <h3 class="small-project-title">Target Tracking and Capture in ROS2 Turtlesim</h3>
-    <p class="small-project-type">Robotics · ROS 2 · Simulation</p>
-  </div>
+    <div class="small-project-details">
+      <h3 class="small-project-title">Temperature Control System Design</h3>
+      <p class="small-project-type">Control Systems · Mechatronics</p>
+    </div>
+  </a>
+
+  <a class="small-project-card small-project-card--linked"
+     href="https://github.com/nghourchian/peaucellier-mechanism"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View Peaucellier Mechanism Design on GitHub">
+
+    <!-- Replace this placeholder with an img when ready. -->
+    <div class="small-project-image" aria-hidden="true"></div>
+
+    <div class="small-project-details">
+      <h3 class="small-project-title">Peaucellier Mechanism Design</h3>
+      <p class="small-project-type">Mechanism Design · Kinematics</p>
+    </div>
+  </a>
+
+  <a class="small-project-card small-project-card--linked"
+     href="https://github.com/nghourchian/target-tracking-and-capture"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View Target Tracking and Capture in ROS2 Turtlesim on GitHub">
+
+    <!-- Replace this placeholder with an img when ready. -->
+    <div class="small-project-image" aria-hidden="true"></div>
+
+    <div class="small-project-details">
+      <h3 class="small-project-title">Target Tracking and Capture in ROS2 Turtlesim</h3>
+      <p class="small-project-type">Robotics · ROS 2 · Simulation</p>
+    </div>
+  </a>
 
 </div>
