@@ -411,7 +411,7 @@ author_profile: false
   </a>
 
   <a class="small-project-card small-project-card--linked"
-     href="https://github.com/nghourchian/face-recognition-door-lock"
+     href="https://github.com/nghourchian/face-recognition-door-lock](https://github.com/nghourchian/nghourchian.github.io/tree/main/images/face-lock.png"
      target="_blank"
      rel="noopener noreferrer"
      aria-label="View Facial Recognition Door Lock on GitHub">
