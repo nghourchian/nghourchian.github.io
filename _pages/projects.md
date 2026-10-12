@@ -422,7 +422,7 @@ author_profile: false
      href="https://github.com/nghourchian/face-recognition-door-"
      target="_blank"
      rel="noopener noreferrer"
-     aria-label="View Facial Detection Door  on GitHub">
+     aria-label="View Facial Recognition Door  on GitHub">
 
     <img class="small-project-image"
          src="/images/face-.png"
