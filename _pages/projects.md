@@ -135,7 +135,7 @@ author_profile: false
 }
 
 .project-button {
-  display: block;
+  display: b;
   margin-top: auto;
   padding: 0.75rem 1rem;
   border-radius: 8px;
@@ -257,7 +257,7 @@ author_profile: false
 }
 
 .small-project-image {
-  display: block;
+  display: b;
   flex: 0 0 42%;
   width: 42%;
   height: 110px;
@@ -276,7 +276,7 @@ author_profile: false
 
 .hbridge-collage img {
   position: absolute;
-  display: block;
+  display: b;
   width: 70%;
   height: 78px;
   object-fit: contain;
@@ -419,18 +419,18 @@ author_profile: false
   </a>
 
   <a class="small-project-card small-project-card--linked"
-     href="https://github.com/nghourchian/face-recognition-door-lock"
+     href="https://github.com/nghourchian/face-recognition-door-"
      target="_blank"
      rel="noopener noreferrer"
-     aria-label="View Facial Recognition Door Lock on GitHub">
+     aria-label="View Facial Detection Door  on GitHub">
 
     <img class="small-project-image"
-         src="/images/face-lock.png"
+         src="/images/face-.png"
          alt="Face recognition application with anti-spoofing scores and lock status"
          loading="lazy">
 
     <div class="small-project-details">
-      <h3 class="small-project-title">Facial Recognition Door Lock</h3>
+      <h3 class="small-project-title">Facial Detection Door Lock</h3>
       <p class="small-project-type">Computer Vision</p>
     </div>
   </a>
