@@ -219,8 +219,9 @@ author_profile: false
   line-height: 1.4;
 }
 
-/* Clickable cards with images */
-.small-project-card--linked {
+/* Cards with images */
+.small-project-card--linked,
+.small-project-card--static {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
@@ -242,6 +243,12 @@ author_profile: false
 .small-project-card--linked:focus-visible {
   outline: 2px solid #6177f2;
   outline-offset: 3px;
+}
+
+.small-project-card--static:hover {
+  transform: none;
+  border-color: #e4e7ec;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.045);
 }
 
 .small-project-details {
@@ -328,7 +335,8 @@ author_profile: false
     padding: 1rem 1.1rem;
   }
 
-  .small-project-card--linked {
+  .small-project-card--linked,
+  .small-project-card--static {
     padding: 0.75rem;
   }
 }
@@ -411,7 +419,7 @@ author_profile: false
   </a>
 
   <a class="small-project-card small-project-card--linked"
-     href="https://github.com/nghourchian/face-recognition-door-lock](https://github.com/nghourchian/nghourchian.github.io/tree/main/images/face-lock.png"
+     href="https://github.com/nghourchian/face-recognition-door-lock"
      target="_blank"
      rel="noopener noreferrer"
      aria-label="View Facial Recognition Door Lock on GitHub">
@@ -461,20 +469,7 @@ author_profile: false
     </div>
   </a>
 
-  <a class="small-project-card small-project-card--linked"
-     href="https://github.com/nghourchian/peaucellier-mechanism"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="View Peaucellier Mechanism Design on GitHub">
 
-    <!-- Replace this placeholder with an img when ready. -->
-    <div class="small-project-image" aria-hidden="true"></div>
-
-    <div class="small-project-details">
-      <h3 class="small-project-title">Peaucellier Mechanism Design</h3>
-      <p class="small-project-type">Mechanism Design · Kinematics</p>
-    </div>
-  </a>
 
   <a class="small-project-card small-project-card--linked"
      href="https://github.com/nghourchian/target-tracking-and-capture"
